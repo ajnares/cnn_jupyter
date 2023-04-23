@@ -26,7 +26,7 @@ print(classNames)
 # Load the saved model
 
 model = models.load_model('model_cnn_beans.h5')
-video = cv2.VideoCapture(0)
+video = cv2.VideoCapture(1)
 
 data = np.ndarray(shape=(1, 64, 64, 3), dtype=np.float32)
 
